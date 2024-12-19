@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header__left">
+                    <a href="./index.html"><img class="header__left-logo" src="./img/shop.webp" alt="logo"></a>
+                </div>
+                <div class="header__right">
+                    <a href="./cart.html" class="header__right-cart"><img src="./img/online-shop.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <h2 class="titleCart">Ваша корзина</h2>
+            <div class="cart">
+                <ol id="cart__li" class="cart__li">
+                </ol>
+                <p id="totalAmount" class="totalAmount">Сумма: 0 $</p>
+                <button id="clearCart" class="clearCart">Очистить корзину</button>
+            </div>
+
+        </section>
+    </div>
+    <script src="js.js" defer></script>
+</body>
+</html>

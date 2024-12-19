@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header__left">
+                    <a href="./index.html"><img class="header__left-logo" src="./img/shop.webp" alt="logo"></a>
+                </div>
+                <div class="header__right">
+                    <a href="./cart.html" class="header__right-cart"><img src="./img/online-shop.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="cards">
+                <h1 class="cards__title">Online Shop</h1>
+                <div class="sectionCards">
+                    <div  id="products" class="products template" style="display: none; ">
+                        <img class="products__img" src="#" alt="">
+                        <h3 class="products__title"></h3>
+                        <p class="products__price"></p>
+                        <button class="products__description">Подробнее</button>
+                        <button class="products__buy">Купить</button>
+                    </div>
+                </div>
+
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                    <button id="closeModal" class="close"><img src="./img/close.webp" alt="close"></button>
+                    <h2 id="modalTitle" class="modalTitle"></h2>
+                    <p id="modalDescription" class="modalDescription"></p>
+                    <p id="modalRating" class="modalRating"></p>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+    <script src="js.js" defer></script>
+</body>
+</html>
